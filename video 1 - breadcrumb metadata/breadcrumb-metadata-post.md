@@ -1,6 +1,8 @@
 #Adding Breadcrumb metadata to your website
 
-I have created a video explaining how you can add breadcrumb metadata to your Drupal 8 website. The gist is the following:
+I have created a video explaining how you can add breadcrumb metadata to your Drupal 8 website. It quickly explains how to add the metadata to your theme and how you test the results.
+
+If you don't need the explanations and details, feel free to just copy the code below.
 
 You will need a twig template in your theme that overwrites the standard breadrumb twig template. The name should be "breadcrumb.html.twig".
 
@@ -27,7 +29,11 @@ Creating the file you can use this code to have the metadata included in the Mic
 {% endif %}
 ```
 
-Make sure to test your changes in Google's structured data testing tool: https://search.google.com/structured-data/testing-tool
+Make sure to test your changes in Google's structured data testing tool: 
 
-More information regarding breadcrumb metadata can be found on https://developers.google.com/search/docs/data-types/breadcrumbs
+https://search.google.com/structured-data/testing-tool
+
+More information regarding breadcrumb metadata can be found on 
+
+https://developers.google.com/search/docs/data-types/breadcrumbs
 
