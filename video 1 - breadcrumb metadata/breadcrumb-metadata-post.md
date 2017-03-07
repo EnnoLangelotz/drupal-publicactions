@@ -4,9 +4,9 @@ I have created a video explaining how you can add breadcrumb metadata to your Dr
 
 If you don't need the explanations and details, feel free to just copy the code below.
 
-You will need a twig template in your theme that overwrites the standard breadrumb twig template. The name should be "breadcrumb.html.twig".
+You will need a twig template in your theme that overwrites the standard breadcrumb twig template. The name has to be "breadcrumb.html.twig".
 
-Creating the file you can use this code to have the metadata included in the Microdata format.
+Creating the file you can use the following code to have the metadata included in the Microdata format.
 
 ```twig
 {#
