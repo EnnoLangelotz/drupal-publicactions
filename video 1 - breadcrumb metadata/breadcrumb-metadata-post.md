@@ -9,6 +9,15 @@ You will need a twig template in your theme that overwrites the standard breadru
 Creating the file you can use this code to have the metadata included in the Microdata format.
 
 ```twig
+{#
+/**
+ * @file
+ * Theme override for a breadcrumb trail.
+ *
+ * Available variables:
+ * - breadcrumb: Breadcrumb trail items.
+ */
+#}
 {% if breadcrumb %}
   <nav class="breadcrumb" role="navigation" aria-labelledby="system-breadcrumb">
     <ol itemscope itemtype="http://schema.org/BreadcrumbList">
